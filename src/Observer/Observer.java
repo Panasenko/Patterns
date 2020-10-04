@@ -1,9 +1,6 @@
 package Observer;
 
-public class Observer {
+public interface Observer {
 
-    public static void main(String[] args) {
-        
-    }
-    
+    void update(int magazineNumber);
 }
